@@ -1,0 +1,15 @@
+html {
+  background-color: gray;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+textarea {
+  height: 30em;
+  width: 35em;
+  overflow-y: scroll;
+}
