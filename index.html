@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <href type="stylesheet" href="style.css">
   </head>
   <body>
     <h1>English Essay Analysis</h1>
-    
-    <textarea rows="4" col="50" id="essay">
-      
-    </textarea>
+    <form>
+      Point of View:
+      <input type="radio" id="1" checked="checked"><b>First</b>
+      <input type="radio" id="2"><b>Second</b>
+      <input type="radio" id="3"><b>Third</b>
+    </form>
+    <br>
+    <div id="red">Important Mistakes</div>
+    <div id="yellow">Dead Words</div>
+    <br>
+    <textarea rows="4" col="50" id="essay" placeholder="Essay Here"></textarea>
     <br>
     <br>
     <button onclick="getSent()">Get Number of Sentences</button>
+    <button onclick="getDeadWords()">Highlight Dead Words</button>
     <br>
     <br>
-    <input type="text" placeholder="Number of Sentences: " id="num" disabled>
+    <input type="text" placeholder="Number of Sentences: " disabled id="num">
+    <input type="text" placeholder="Dead Word Count: " disabled id="dead">
   </body>
 </html>
