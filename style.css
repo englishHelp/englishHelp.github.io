@@ -31,13 +31,13 @@ textarea {
 
 #red {
   background-color: red;
-  width: 8em;
+  width: 12em;
   margin-bottom: 5px;
 }
 
 #yellow {
   background-color: yellow;
-  width: 8em;
+  width: 10em;
 }
 
 #red, #yellow {
